@@ -1,4 +1,4 @@
-# Gold's_Week
+# Gold's Week
 
 La Gold's week ou la semaine d'or en anglais est une semaine complète au repos. Ce terme est surtout utilisé au japon lorsqu'une maison d'édition ou un mangaka fait une pause sur son travail.
 
