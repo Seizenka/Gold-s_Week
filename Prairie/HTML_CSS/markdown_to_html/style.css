@@ -1,0 +1,114 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.title {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(41, 41, 41);
+    color: white;
+   padding: 10px;
+    text-align: center;
+}
+
+.definition {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+}
+.definition-markdown {
+    text-align: center;
+    padding-top: 50px;
+    line-height: 32px;
+}
+
+
+.optimize {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(41, 41, 41);
+    color: white;
+   padding: 10px;
+    text-align: center;
+}
+
+.text-optimize {
+    width: 100%;
+    padding: 10px;
+    line-height: 32px;
+}
+
+.syntaxe {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(41, 41, 41);
+    color: white;
+   padding: 10px;
+    text-align: center;
+}
+
+.text-syntaxe {
+    width: 100%;
+    padding: 10px;
+    line-height: 32px;
+}
+
+.logo {
+    width: 25%;
+    float: left;
+    padding-right: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(41, 41, 41);
+    color: white;
+   padding: 10px;
+    text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 800px){ 
+    .title, .definition, .optimize, .text-optimize, .syntaxe, .text-syntaxe, .footer {
+        width: 100%;
+        padding: 10px;
+        
+    }
+
+    .title {
+        height: 100px;
+    }
+
+    h1 {
+    
+    }
+    .definition-markdown {
+        line-height: 25px;
+        padding: 0;
+    }
+
+    .definition {
+        margin-bottom: 10px;
+    }
+
+    .optimize , .syntaxe {
+        padding: 0;
+        height: 100px;
+    }
+
+    .optimize h2 {
+        padding-top: 25px;
+    }
+
+    .syntaxe h2 {
+        padding-top: 30px;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+    
+
+}

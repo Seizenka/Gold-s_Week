@@ -1,0 +1,3 @@
+Pour m'entraîner de nouveau sur javascript,
+tous les exercices ont été réalisés via le site web d'Openclassroom.
+Cela constitue un "plus" dans mon programme de révision.

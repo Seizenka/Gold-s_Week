@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Markdown to HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <!-- Début de la page avec un header-->
+    <header class="title">
+        <h1>Qu'est-ce que le Markdown ?</h1>
+    </header>
+    <!--Fin du header titre principale-->
+
+    <!--Section de la définition-->
+    <section class="definition">
+        <p class="definition-markdown">Le Markdown est une façon de styliser un texte sur internet. On peut contrôler l'affichage d'un document;
+            rendre du texte en <b>gras</b> ou en <em>italique</em>, ajouter des images, créer des listes et plus encore. Son but est d'offrir une syntaxte facile à écrire et à lire.
+           </p>
+    </section>
+    <!--Fin de la section définition-->
+
+    <!--Section du travail optimisé-->
+    <section class="optimize">
+        <h2>Qu'est-ce qu'un environnement optimisé ?</h2>
+    </section>
+    
+    <section class="text-optimize">
+        <p>
+                Dans la plupart des entreprises, la mission essentielle des 
+                Ressources humaines a toujours été d’assurer la gestion du personnel, 
+                des rémunérations et des avantages, le recrutement et la formation. 
+                La qualité de l’environnement de travail et la collaboration n’étaient pas au centre de 
+                leurs préoccupations, mais cela évolue. Un nombre croissant de professionnels des RH 
+                participent désormais aux décisions portant sur l’environnement de travail 
+                (physique et numérique).
+        </p>
+        <p><b>Les principaux moteurs de cette évolution sont les suivants :</b></p>
+
+            <ul>
+                <li>La guerre des talents – les entreprises peinent de plus en plus à recruter des collaborateurs talentueux possédant des compétences très recherchées. Un environnement de travail attractif devient donc un atout important pour recruter, fidéliser et motiver les talents.</li><p></p>
+                <li>Le changement de nature du travail – l’essor de l’économie à la tâche se traduit par le développement d’une approche par projet réunissant ponctuellement différents intervenants. Le travail s’effectue ainsi dans un écosystème dynamique non contraint par les limites d’une entité juridique. L’évolution des attentes des collaborateurs – Le numérique offre à certains professionnels la possibilité de travailler partout, entraînant une évolution de la fonction du bureau qui devient avant tout un lieu où rencontrer des clients et collègues et travailler en collaboration. Les salariés cherchent un environnement de travail confortable et stimulant offrant des installations de qualité, à l’image de celles proposées par les espaces de coworking en pleine multiplication.</li>
+            </ul>
+    </section>
+    <!--Fin de la section du travail optimisé-->
+
+    <!--Section de la syntaxe-->
+    <section class="syntaxe">
+        <h2>La syntaxte Markdwon</h2>
+    </section>
+
+    <section class="text-syntaxe">
+        <p>Quand vous écrivez en Markdown, vous utilisez des notations raccourcies qui sont remplacées par
+
+                les balises HTML correspondantes. Nous allons découvrir la plupart de ces notations raccourcies
+                
+                ici. À chaque fois, je vous indiquerai l'équivalent HTML de la notation Markdown.
+        </p>
+        <q>Commençons par le plus simple, vous pouvez facilement créer des paragraphes en laissant des lignes vides.</q><p></p>
+
+        <q>Pour la mise en valeur, autrement dit l'emphase, il vous suffit de mettre des étoiles pour mettre un mot en **gras** et entourer le mot d'underscore pour le mettre en _italique_.</q><p></p>
+
+        <q>Il y a différents niveaux de titres : # Titre de niveau 1 - ## Titre de niveau 2 - ### Titre de niveau 3.</q><p></p>
+
+        <h4>les listes :</h4>
+
+        <p><b>La liste ordonnée se crée avec des chiffres :</b></p>
+        <ol>
+            <li>Ordonnée</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ol>
+
+        <p><b>La liste désordonnée se crée avec des étoiles * :</b></p>
+        <ul>
+            <li>* Désordonnée</li>
+            <li>* Photoshop</li>
+            <li>* Indesign</li>
+            <li>* Illustrator</li>
+
+        <q>Elles peuvent aussi s'imbriquer:</q>
+        <ul>
+            <li>* Une puce !</li>
+            <li>* Une autre puce !</li>
+                <li>* Encore une puce !</li>
+                <li>* Et encore une autre !</li>	
+        </ul>
+
+        <q>Pour créer une citation, vous devez précéder les lignes citées d'un ">".Voici une citation.</q><p></p>
+
+        <p> <img src="https://pbs.twimg.com/profile_images/976503221689692161/8s0PJ9xs_400x400.jpg" class="logo" alt="image flottante"/>Pour créer un lien, vous devez placer le texte du lien entre crochets suivis de l'URL entre parenthèses :</q>
+
+        <p>```Markdown
+[Nom du site cible](url du site cible)</p>
+
+        <p>exemple : ```[Becode](https://www.facebook.com/becode.org/)``` cela vous donnera la page Facebook de BeCode <a href="https://www.facebook.com/becode.org/">BeCode</a>
+
+        <q>Pour intégrer une image, on utilise la même technique pour les liens sans oublier le point d'exclamation devant les crochets "!" :</q>
+
+        <p>>```Markdown
+![Nom de l'image cible](url de l'emplacement de l'image)
+```</p>
+
+        <p>exemple : ```![Logo Becode](https://pbs.twimg.com/profile_images/976503221689692161/8s0PJ9xs_400x400.jpg)``` vous donnera:</p>
+
+
+        <h2 class="dessous">Pour insérer un gif</h2>
+
+
+        <p>l'inssertion d'un gif se compose de:</p>
+
+        <p>(de la valeur: ! [alt Text])
+
+(de lien: https://media.giphy.com/media/zXmbOaTpbY6mA/giphy.gif)
+
+on ajoute les deux et...</p>
+
+        <img src="https://media.giphy.com/media/zXmbOaTpbY6mA/giphy.gif" class="gif"/>
+
+        <h2>Les coloration syntaxique</h2>
+
+            <p>Une coloration syntaxique se compose de plusieurs partie:</p>
+
+            <p>(la valeur: script)
+
+(le type de valeur: type="text/javascript")
+
+(le nom: alert("Julien Cassandra Vannessa");</p>
+
+
+        <h2>avec coloration</h2>
+        <div class="highlight highlight-source-js"><pre><span class="pl-k">&lt;</span>script type<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+            <span class="pl-en">alert</span>(<span class="pl-s"><span class="pl-pds">"</span>Julien Cassanra Vannessa<span class="pl-pds">"</span></span>);
+        <span class="pl-k">&lt;</span><span class="pl-k">/</span>script<span class="pl-k">&gt;</span></pre></div>
+                
+      
+
+        <h2>sans coloration</h2>
+        <div class="highlight highlight-source-js"><pre><span class="pl-k">&lt;</span>script type<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span><span class="pl-k">&gt;</span>
+            <span class="pl-en">alert</span>(<span class="pl-s"><span class="pl-pds">"</span>Julien Cassanra Vannessa<span class="pl-pds">"</span></span>);
+        <span class="pl-k">&lt;</span><span class="pl-k">/</span>script<span class="pl-k">&gt;</span></pre></div>
+    </section>
+    <!--Fin de la section syntaxe-->
+
+    <!--Footer-->
+    <footer class="footer">
+            <p>L'exercice a été réalisé par les apprenants de BeCode : Vanessa - Cassandra - Julien</p>
+    </footer>
+
+</body>
+</html>
